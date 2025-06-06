@@ -1,0 +1,40 @@
+        body{
+            background: linear-gradient(to left, rgb(219, 167, 63),green);
+        }
+        .bio-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10rem;
+            
+        }
+        .bio-name{
+            border-radius: 2rem;
+            border: none;
+            height: 28rem;
+            width: 42rem;
+            text-align: center;
+            background-color: rgb(134, 115, 115);
+            transition: transform 0.3s ease-in-out;
+        }
+        .bio-name:hover{
+
+            box-shadow: 1px -1px 0px 11px rgba(50, 38, 38, 0.2); ;
+            transform: scale(1.05);
+        }
+        h2{
+            color: rgb(255, 255, 255);
+        }
+        img{
+           
+  width: 220px;
+  height: 240px;
+  /* object-fit: cover;      ensures the image fills the circle */
+  border-radius: 50%;     /* makes it a circle */
+  border: 2px solid #ccc; /* optional: add a border */
+}
+p{
+    font-size: 1.3rem;
+    color: rgb(250, 240, 240);
+    
+}
